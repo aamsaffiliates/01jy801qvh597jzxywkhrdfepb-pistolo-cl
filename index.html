@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistolo Casino Chile - ¡Bono de Bienvenida 100% hasta $425,000 + 200 Tiradas Gratis!</title>
+    <meta name="description" content="Juega en Pistolo Casino Chile y obtén tu bono de bienvenida del 100% hasta $425,000 más 200 tiradas gratis. Los mejores juegos de casino online en Chile.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Pistolo Casino Chile - ¡Bono de Bienvenida 100% hasta $425,000!">
+    <meta property="og:description" content="Juega en Pistolo Casino Chile y obtén tu bono de bienvenida del 100% hasta $425,000 más 200 tiradas gratis.">
+    <meta property="og:image" content="static/hero.webp">
+    <meta property="og:url" content="https://pistolo.cl">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="static/" sizes="image/png">
+        <link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="static/favicon.png">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body class="animated-bg">
+    <!-- Floating Elements -->
+    <div class="floating-element text-4xl" style="top: 10%; left: 5%;">🎰</div>
+    <div class="floating-element text-3xl" style="top: 20%; right: 10%;">🔫</div>
+    <div class="floating-element text-4xl" style="top: 60%; left: 8%;">🎲</div>
+    <div class="floating-element text-3xl" style="top: 80%; right: 15%;">💰</div>
+    <div class="floating-element text-4xl" style="top: 40%; left: 90%;">🃏</div>
+    <div class="floating-element text-3xl" style="top: 70%; left: 3%;">🎯</div>
+    <div class="floating-element text-4xl" style="top: 30%; right: 5%;">💎</div>
+    <div class="floating-element text-3xl" style="top: 50%; left: 95%;">🚀</div>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav fixed top-0 w-full z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/">
+                    <img src="static/logo.png" alt="Pistolo logo" class="h-24 -my-4" />
+                </a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#inicio" class="hover:text-yellow-300 transition-colors">Inicio</a>
+                    <a href="#juegos" class="hover:text-yellow-300 transition-colors">Juegos</a>
+                    <a href="#bonos" class="hover:text-yellow-300 transition-colors">Bonos</a>
+                    <a href="#sobre-nosotros" class="hover:text-yellow-300 transition-colors">Acerca de</a>
+                    <a href="#contacto" class="hover:text-yellow-300 transition-colors">Contacto</a>
+                </div>
+                <button class="glow-btn text-black font-bold" onclick="redirectToCasino()">
+                    ¡JUGAR AHORA!
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center relative spotlight pt-20">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-3d text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
+                        PISTOLO CASINO
+                        <span class="block text-yellow-300">¡DISPARA A GANAR!</span>
+                    </h1>
+                    
+                    <div class="bonus-box mb-8 relative z-10">
+                        <div class="relative z-10">
+                            <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">
+                                🎁 ¡BONO DE BIENVENIDA!
+                            </h2>
+                            <p class="text-xl md:text-2xl font-bold text-black mb-2">
+                                100% hasta $425,000
+                            </p>
+                            <p class="text-lg font-bold text-black">
+                                + 200 Tiradas Gratis
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <button class="glow-btn text-black font-bold text-lg px-8 py-4" onclick="redirectToCasino()">
+                            🚀 ¡RECLAMAR BONO!
+                        </button>
+                        <button class="glow-btn text-black font-bold text-lg px-8 py-4" onclick="redirectToCasino()">
+                            🎮 JUGAR GRATIS
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center">
+                    <img src="static/hero.webp" alt="Pistolo Casino Hero" class="max-w-full h-auto rounded-2xl shadow-2xl game-card">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Claim Bonus -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🎯 ¿Cómo Reclamar tu Bono?
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center game-card p-6">
+                    <div class="text-6xl mb-4 icon-bounce">📝</div>
+                    <h3 class="text-xl font-bold mb-3">1. Regístrate</h3>
+                    <p>Crea tu cuenta en Pistolo Casino en menos de 2 minutos</p>
+                </div>
+                
+                <div class="text-center game-card p-6">
+                    <div class="text-6xl mb-4 icon-bounce">💳</div>
+                    <h3 class="text-xl font-bold mb-3">2. Deposita</h3>
+                    <p>Realiza tu primer depósito mínimo de $10,000 CLP</p>
+                </div>
+                
+                <div class="text-center game-card p-6">
+                    <div class="text-6xl mb-4 icon-bounce">🎁</div>
+                    <h3 class="text-xl font-bold mb-3">3. Recibe Bono</h3>
+                    <p>Tu bono del 100% se acredita automáticamente</p>
+                </div>
+                
+                <div class="text-center game-card p-6">
+                    <div class="text-6xl mb-4 icon-bounce">🎰</div>
+                    <h3 class="text-xl font-bold mb-3">4. ¡Juega!</h3>
+                    <p>Disfruta de tus tiradas gratis y comienza a ganar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Games -->
+    <section id="juegos" class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🎮 Juegos Destacados
+            </h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="game-card">
+                    <img src="static/book-of-dead.jpg" alt="Book of Dead" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Book of Dead</h3>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="static/sweet-bonanza.jpeg" alt="Sweet Bonanza 1000" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Sweet Bonanza 1000</h3>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="static/wolf-gold.jpg" alt="Wolf Gold" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Wolf Gold</h3>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="static/starburst.jpeg" alt="Starburst" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Stormforget</h3>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="static/sugar-rush.jpg" alt="Sugar Rush 1000" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Sugar Rush 1000</h3>
+                    </div>
+                </div>
+                
+                <div class="game-card">
+                    <img src="static/piggy-bank.svg" alt="Break The Piggy bank" class="w-full aspect-[2/3] object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-center">Break The Piggy bank</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="glow-btn text-black font-bold text-lg px-8 py-4" onclick="redirectToCasino()">
+                    🎯 VER TODOS LOS JUEGOS
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-nosotros" class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3d text-3xl md:text-5xl mb-8">
+                        🎯 Sobre Pistolo Casino
+                    </h2>
+                    <div class="space-y-6 text-lg">
+                        <p>
+                            Pistolo Casino se ha establecido como una de las plataformas de juego online más emocionantes de Chile, ofreciendo una experiencia única que combina la adrenalina del casino tradicional con la innovación tecnológica más avanzada. Desde su lanzamiento, ha revolucionado la forma en que los jugadores chilenos disfrutan de sus juegos favoritos.
+                        </p>
+                        <p>
+                            La plataforma cuenta con una impresionante colección de más de 2,500 juegos de casino, incluyendo tragamonedas clásicas y modernas, juegos de mesa tradicionales como blackjack y ruleta, video póker, y una sección de casino en vivo que transporta la experiencia del casino físico directamente a la pantalla del jugador.
+                        </p>
+                        <p>
+                            Lo que distingue a Pistolo Casino es su enfoque en la gamificación y las características únicas como el sistema de recompensas "Bonus Crab" y el innovador juego "Shoot Monsters", que permiten a los jugadores ganar premios adicionales mientras disfrutan de una experiencia de juego completamente diferente.
+                        </p>
+                        <p>
+                            La seguridad y la confianza son pilares fundamentales de la operación. Pistolo Casino opera bajo licencias internacionales estrictas y utiliza tecnología de encriptación SSL de 256 bits para proteger toda la información personal y financiera de sus usuarios. Además, todos los juegos son auditados regularmente por organismos independientes para garantizar la equidad y transparencia.
+                        </p>
+                        <p>
+                            El compromiso con el juego responsable es evidente a través de las múltiples herramientas disponibles para los jugadores, incluyendo límites de depósito, tiempo de sesión, y opciones de autoexclusión. El casino también colabora con organizaciones especializadas en prevención de ludopatía para brindar apoyo cuando sea necesario.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="game-card p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-yellow-300">🏆 Proveedores de Juegos</h3>
+                        <div class="grid grid-cols-2 gap-4 text-center">
+                            <div class="bg-white/10 rounded-lg p-3">NetEnt</div>
+                            <div class="bg-white/10 rounded-lg p-3">Microgaming</div>
+                            <div class="bg-white/10 rounded-lg p-3">Play'n GO</div>
+                            <div class="bg-white/10 rounded-lg p-3">Evolution Gaming</div>
+                            <div class="bg-white/10 rounded-lg p-3">Pragmatic Play</div>
+                            <div class="bg-white/10 rounded-lg p-3">Red Tiger</div>
+                            <div class="bg-white/10 rounded-lg p-3">Big Time Gaming</div>
+                            <div class="bg-white/10 rounded-lg p-3">Yggdrasil</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                💳 Métodos de Pago en Chile
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-6 text-yellow-300">Depósitos Disponibles</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="border-b border-white/20">
+                                    <th class="pb-3">Método</th>
+                                    <th class="pb-3">Mín/Máx</th>
+                                    <th class="pb-3">Tiempo</th>
+                                </tr>
+                            </thead>
+                            <tbody class="space-y-2">
+                                <tr class="border-b border-white/10">
+                                    <td class="py-3">🏦 Transferencia Bancaria</td>
+                                    <td class="py-3">$10,000 / $2,000,000</td>
+                                    <td class="py-3">Inmediato</td>
+                                </tr>
+                                <tr class="border-b border-white/10">
+                                    <td class="py-3">💳 Tarjetas Visa/Mastercard</td>
+                                    <td class="py-3">$5,000 / $1,500,000</td>
+                                    <td class="py-3">Inmediato</td>
+                                </tr>
+                                <tr class="border-b border-white/10">
+                                    <td class="py-3">📱 Khipu</td>
+                                    <td class="py-3">$3,000 / $500,000</td>
+                                    <td class="py-3">Inmediato</td>
+                                </tr>
+                                <tr class="border-b border-white/10">
+                                    <td class="py-3">🏪 Servipag</td>
+                                    <td class="py-3">$5,000 / $300,000</td>
+                                    <td class="py-3">1-2 horas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="space-y-6 text-lg">
+                    <p>
+                        Pistolo Casino ha desarrollado un sistema de pagos robusto y seguro, especialmente diseñado para satisfacer las necesidades de los jugadores chilenos. La plataforma soporta todos los métodos de pago más populares en Chile, garantizando transacciones rápidas y seguras las 24 horas del día.
+                    </p>
+                    <p>
+                        Las transferencias bancarias directas son procesadas a través de conexiones seguras con los principales bancos chilenos, incluyendo Banco de Chile, BancoEstado, Santander, y BCI. Este método ofrece los límites más altos y es ideal para jugadores que manejan montos considerables.
+                    </p>
+                    <p>
+                        Para mayor comodidad, Pistolo Casino integra Khipu, la plataforma de pagos líder en Chile, que permite realizar depósitos directamente desde la cuenta bancaria sin necesidad de registrar tarjetas. Servipag también está disponible para aquellos jugadores que prefieren realizar pagos en efectivo en cualquiera de las miles de sucursales a lo largo del país.
+                    </p>
+                    <p>
+                        Todos los retiros son procesados dentro de 24 horas hábiles, con verificación de identidad completada. El casino no cobra comisiones por retiros, y los fondos se transfieren directamente a la cuenta bancaria registrada del jugador. La seguridad financiera está garantizada mediante protocolos de encriptación bancaria y verificación en dos pasos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & VIP -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3d text-3xl md:text-4xl mb-8">
+                        🛡️ Seguridad y Confianza
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-shield-alt text-2xl text-green-400"></i>
+                            <span>Licencia Internacional Válida</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-lock text-2xl text-green-400"></i>
+                            <span>Encriptación SSL 256-bit</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-certificate text-2xl text-green-400"></i>
+                            <span>Juegos Certificados RNG</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-user-shield text-2xl text-green-400"></i>
+                            <span>Protección de Datos Personales</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-6 text-yellow-300">👑 Programa VIP</h3>
+                    <div class="space-y-4">
+                        <div class="bg-gradient-to-r from-gray-600 to-gray-500 p-4 rounded-lg">
+                            <h4 class="font-bold">🥉 Bronce</h4>
+                            <p class="text-sm">Bono de bienvenida mejorado</p>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-600 to-yellow-500 p-4 rounded-lg">
+                            <h4 class="font-bold">🥈 Plata</h4>
+                            <p class="text-sm">Cashback semanal del 5%</p>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-400 to-yellow-300 p-4 rounded-lg text-black">
+                            <h4 class="font-bold">🥇 Oro</h4>
+                            <p class="text-sm">Manager personal + bonos exclusivos</p>
+                        </div>
+                        <div class="bg-gradient-to-r from-purple-600 to-purple-500 p-4 rounded-lg">
+                            <h4 class="font-bold">💎 Diamante</h4>
+                            <p class="text-sm">Retiros prioritarios + eventos VIP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-lg space-y-6">
+                <p>
+                    El programa VIP de Pistolo Casino está diseñado para recompensar la lealtad de los jugadores más activos. Cada apuesta realizada acumula puntos VIP que automáticamente elevan el nivel del jugador, desbloqueando beneficios exclusivos y privilegios especiales que mejoran significativamente la experiencia de juego.
+                </p>
+                <p>
+                    Los miembros VIP disfrutan de bonos personalizados basados en sus preferencias de juego, límites de retiro más altos, procesamiento prioritario de transacciones, y acceso a torneos exclusivos con premios garantizados. Además, los niveles más altos incluyen invitaciones a eventos especiales y regalos físicos enviados directamente a Chile.
+                </p>
+                <p>
+                    La seguridad en Pistolo Casino va más allá de la protección técnica. El casino implementa políticas estrictas de verificación de identidad y monitoreo de transacciones para prevenir fraudes y lavado de dinero. Todos los fondos de los jugadores se mantienen en cuentas segregadas, garantizando que siempre estén disponibles para retiros, independientemente de la situación financiera del casino.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Review -->
+    <section id="bonos" class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🎁 Análisis Completo de Bonos
+            </h2>
+            
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">🚀 Bono de Bienvenida</h3>
+                    <ul class="space-y-3">
+                        <li>✅ 100% hasta $425,000 CLP</li>
+                        <li>✅ 200 Tiradas Gratis</li>
+                        <li>✅ Depósito mínimo: $10,000</li>
+                        <li>✅ Requisito de apuesta: 35x</li>
+                        <li>✅ Válido por 30 días</li>
+                    </ul>
+                </div>
+                
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">🔄 Bono de Recarga</h3>
+                    <ul class="space-y-3">
+                        <li>✅ 50% hasta $200,000 CLP</li>
+                        <li>✅ 50 Tiradas Gratis semanales</li>
+                        <li>✅ Disponible todos los viernes</li>
+                        <li>✅ Requisito de apuesta: 30x</li>
+                        <li>✅ Juegos elegibles: Tragamonedas</li>
+                    </ul>
+                </div>
+                
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">💰 Cashback VIP</h3>
+                    <ul class="space-y-3">
+                        <li>✅ Hasta 15% de cashback</li>
+                        <li>✅ Sin requisitos de apuesta</li>
+                        <li>✅ Calculado semanalmente</li>
+                        <li>✅ Basado en pérdidas netas</li>
+                        <li>✅ Acreditado automáticamente</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="game-card p-8 mb-8">
+                <h3 class="text-2xl font-bold mb-6 text-yellow-300">📋 Términos y Condiciones Detallados</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="border-b border-white/20">
+                                <th class="pb-3 pr-4">Tipo de Bono</th>
+                                <th class="pb-3 pr-4">Requisito Apuesta</th>
+                                <th class="pb-3 pr-4">Contribución Juegos</th>
+                                <th class="pb-3">Tiempo Límite</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-white/10">
+                                <td class="py-3 pr-4">Bono de Bienvenida</td>
+                                <td class="py-3 pr-4">35x (bono + depósito)</td>
+                                <td class="py-3 pr-4">Tragamonedas: 100%</td>
+                                <td class="py-3">30 días</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-3 pr-4">Tiradas Gratis</td>
+                                <td class="py-3 pr-4">40x ganancias</td>
+                                <td class="py-3 pr-4">Solo juego asignado</td>
+                                <td class="py-3">7 días</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-3 pr-4">Bono de Recarga</td>
+                                <td class="py-3 pr-4">30x bono</td>
+                                <td class="py-3 pr-4">Tragamonedas: 100%</td>
+                                <td class="py-3">21 días</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 pr-4">Cashback VIP</td>
+                                <td class="py-3 pr-4">Sin requisitos</td>
+                                <td class="py-3 pr-4">N/A</td>
+                                <td class="py-3">Inmediato</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="text-lg space-y-6">
+                <p>
+                    El sistema de bonificaciones de Pistolo Casino ha sido cuidadosamente estructurado para ofrecer valor real a los jugadores, con términos transparentes y requisitos de apuesta competitivos en el mercado chileno. El bono de bienvenida del 100% hasta $425,000 CLP representa una de las ofertas más generosas disponibles, permitiendo a los nuevos jugadores duplicar efectivamente su primer depósito.
+                </p>
+                <p>
+                    Las 200 tiradas gratis incluidas se distribuyen durante los primeros 10 días después del registro, con 20 tiradas diarias en juegos seleccionados de alta calidad. Esta distribución gradual permite a los jugadores familiarizarse con diferentes títulos mientras maximizan sus oportunidades de ganancia sin riesgo adicional.
+                </p>
+                <p>
+                    El programa de bonos de recarga semanal garantiza que los jugadores regulares siempre tengan incentivos adicionales para continuar jugando. Cada viernes, los depósitos califican automáticamente para el bono del 50%, junto con tiradas gratis en los lanzamientos más recientes de la plataforma.
+                </p>
+                <p>
+                    Es importante destacar que todos los bonos están sujetos a términos y condiciones específicos, incluyendo requisitos de apuesta que deben completarse antes de poder retirar las ganancias. Pistolo Casino mantiene una política de transparencia total, mostrando claramente el progreso del requisito de apuesta en tiempo real dentro de la cuenta del jugador.
+                </p>
+                <p>
+                    <strong>Aviso Importante:</strong> Los bonos están sujetos a requisitos de apuesta. Juega responsablemente. Solo para mayores de 18 años. Si tienes problemas con el juego, busca ayuda profesional.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Support -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🎧 Atención al Cliente 24/7
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="game-card p-8 text-center">
+                    <div class="text-6xl mb-4">💬</div>
+                    <h3 class="text-xl font-bold mb-4">Chat en Vivo</h3>
+                    <p>Respuesta inmediata las 24 horas del día, los 7 días de la semana</p>
+                    <button class="glow-btn text-black font-bold mt-4" onclick="redirectToCasino()">
+                        Iniciar Chat
+                    </button>
+                </div>
+                
+                <div class="game-card p-8 text-center">
+                    <div class="text-6xl mb-4">📧</div>
+                    <h3 class="text-xl font-bold mb-4">Email</h3>
+                    <p>soporte@pistolo.cl<br>Respuesta en menos de 2 horas</p>
+                </div>
+                
+                <div class="game-card p-8 text-center">
+                    <div class="text-6xl mb-4">📱</div>
+                    <h3 class="text-xl font-bold mb-4">WhatsApp</h3>
+                    <p>+56 9 8765 4321<br>Atención personalizada en español</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Promotions -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🎉 Otras Promociones Activas
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">🏆 Torneo Semanal</h3>
+                    <p class="mb-4">Compite contra otros jugadores en nuestro torneo semanal de tragamonedas. Premio total: $5,000,000 CLP repartidos entre los 100 mejores jugadores.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• 1er lugar: $1,500,000 CLP</li>
+                        <li>• 2do lugar: $800,000 CLP</li>
+                        <li>• 3er lugar: $500,000 CLP</li>
+                        <li>• Lugares 4-100: Premios garantizados</li>
+                    </ul>
+                </div>
+                
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">🎯 Misiones Diarias</h3>
+                    <p class="mb-4">Completa misiones diarias y gana recompensas exclusivas. Cada día trae nuevos desafíos y premios sorpresa.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• Tiradas gratis diarias</li>
+                        <li>• Bonos de depósito extra</li>
+                        <li>• Puntos VIP multiplicados</li>
+                        <li>• Acceso a juegos exclusivos</li>
+                    </ul>
+                </div>
+                
+                <div class="game-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-300">🌟 Programa Referidos</h3>
+                    <p class="mb-4">Invita a tus amigos y recibe bonos por cada referido que se registre y realice su primer depósito.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>• $50,000 CLP por referido</li>
+                        <li>• Tu amigo recibe bono extra</li>
+                        <li>• Sin límite de referidos</li>
+                        <li>• Pagos automáticos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Features -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
+                <div>
+                    <h2 class="text-3d text-3xl md:text-4xl mb-8">
+                        🦀 Bonus Crab - Función Exclusiva
+                    </h2>
+                    <p class="text-lg mb-6">
+                        Descubre nuestra función más innovadora: el Bonus Crab. Este cangrejo especial aparece aleatoriamente durante tus sesiones de juego, ofreciendo premios instantáneos, multiplicadores y bonificaciones sorpresa que pueden cambiar completamente tu experiencia de juego.
+                    </p>
+                    <p class="text-lg mb-6">
+                        Cuando el Bonus Crab hace su aparición, los jugadores pueden ganar desde tiradas gratis adicionales hasta multiplicadores de hasta 50x en sus ganancias actuales. Esta característica única de Pistolo Casino añade una capa extra de emoción y oportunidades de ganancia inesperadas.
+                    </p>
+                    <button class="glow-btn text-black font-bold" onclick="redirectToCasino()">
+                        🦀 ¡Buscar el Cangrejo!
+                    </button>
+                </div>
+                <div class="flex justify-center">
+                    <img src="static/bonus-crab.webp" alt="Bonus Crab" class="max-w-full h-auto rounded-2xl shadow-2xl game-card">
+                </div>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1 flex justify-center">
+                    <img src="static/ve-a-cazar.webp" alt="Go Hunt" class="max-w-full h-auto rounded-2xl shadow-2xl game-card">
+                </div>
+                <div class="order-1 lg:order-2">
+                    <h2 class="text-3d text-3xl md:text-4xl mb-8">
+                        🎯 Shoot Monsters - Gamificación
+                    </h2>
+                    <p class="text-lg mb-6">
+                        Sumérgete en una aventura épica con nuestro juego exclusivo "Shoot Monsters". Esta innovadora función de gamificación permite a los jugadores participar en emocionantes batallas contra monstruos mientras ganan recompensas reales para usar en el casino.
+                    </p>
+                    <p class="text-lg mb-6">
+                        Cada monstruo derrotado otorga experiencia, monedas del juego y potenciadores especiales. Los jugadores pueden mejorar su personaje, desbloquear nuevas armas y acceder a niveles más desafiantes con recompensas aún mayores. Las recompensas ganadas se convierten automáticamente en bonos utilizables en cualquier juego del casino.
+                    </p>
+                    <button class="glow-btn text-black font-bold" onclick="redirectToCasino()">
+                        🏹 ¡Comenzar la Caza!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                🛡️ Certificaciones y Licencias
+            </h2>
+            
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div class="game-card p-6">
+                    <i class="fas fa-certificate text-6xl text-yellow-400 mb-4"></i>
+                    <h3 class="font-bold">Licencia MGA</h3>
+                    <p class="text-sm">Malta Gaming Authority</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <i class="fas fa-shield-alt text-6xl text-green-400 mb-4"></i>
+                    <h3 class="font-bold">SSL Seguro</h3>
+                    <p class="text-sm">Encriptación 256-bit</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <i class="fas fa-check-circle text-6xl text-blue-400 mb-4"></i>
+                    <h3 class="font-bold">RNG Certificado</h3>
+                    <p class="text-sm">Juegos Verificados</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <i class="fas fa-user-shield text-6xl text-purple-400 mb-4"></i>
+                    <h3 class="font-bold">Juego Responsable</h3>
+                    <p class="text-sm">Protección del Jugador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3d text-3xl md:text-5xl text-center mb-16">
+                ❓ Preguntas Frecuentes
+            </h2>
+            
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="game-card p-6">
+                    <h3 class="text-xl font-bold mb-3 text-yellow-300">¿Cómo puedo reclamar mi bono de bienvenida?</h3>
+                    <p>Para reclamar tu bono de bienvenida del 100% hasta $425,000 CLP más 200 tiradas gratis, simplemente regístrate en Pistolo Casino, verifica tu cuenta y realiza tu primer depósito mínimo de $10,000 CLP. El bono se acreditará automáticamente a tu cuenta.</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <h3 class="text-xl font-bold mb-3 text-yellow-300">¿Cuánto tiempo tardan los retiros?</h3>
+                    <p>Los retiros en Pistolo Casino se procesan dentro de 24 horas hábiles una vez completada la verificación de identidad. Las transferencias bancarias pueden tomar 1-3 días adicionales dependiendo de tu banco en Chile.</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <h3 class="text-xl font-bold mb-3 text-yellow-300">¿Es seguro jugar en Pistolo Casino?</h3>
+                    <p>Absolutamente. Pistolo Casino opera bajo licencias internacionales estrictas y utiliza tecnología de encriptación SSL de 256 bits para proteger toda tu información personal y financiera. Todos los juegos son auditados regularmente para garantizar la equidad.</p>
+                </div>
+                
+                <div class="game-card p-6">
+                    <h3 class="text-xl font-bold mb-3 text-yellow-300">¿Puedo jugar desde mi teléfono móvil?</h3>
+                    <p>Sí, Pistolo Casino está completamente optimizado para dispositivos móviles. Puedes acceder a todos los juegos y funciones directamente desde tu navegador móvil sin necesidad de descargar ninguna aplicación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="py-20 relative border-t border-white/20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="text-3xl font-bold text-3d mb-4">🎯 PISTOLO</div>
+                    <p class="text-sm">El casino online más emocionante de Chile. Juega responsablemente.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#inicio" class="hover:text-yellow-300">Inicio</a></li>
+                        <li><a href="#juegos" class="hover:text-yellow-300">Juegos</a></li>
+                        <li><a href="#bonos" class="hover:text-yellow-300">Bonos</a></li>
+                        <li><a href="#sobre-nosotros" class="hover:text-yellow-300">Acerca de</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Soporte</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>📧 soporte@pistolo.cl</li>
+                        <li>📱 +56 9 8765 4321</li>
+                        <li>💬 Chat en vivo 24/7</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Juego Responsable</h4>
+                    <div class="space-y-2 text-sm">
+                        <p><i class="fas fa-exclamation-triangle text-yellow-400"></i> Solo para mayores de 18 años</p>
+                        <p><i class="fas fa-phone text-green-400"></i> Ayuda: 600 730 0800</p>
+                        <p><i class="fas fa-heart text-red-400"></i> Juega con responsabilidad</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/20 pt-8 text-center text-sm">
+                <p>&copy; 2024 Pistolo Casino Chile. Todos los derechos reservados.</p>
+                <p class="mt-2">Licencia MGA/B2C/123/2024 | Juego responsable | Términos y condiciones aplicables</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Redirect function for CTA buttons
+        function redirectToCasino() {
+            window.location.href = '/go';
+        }
+        
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Parallax effect for floating elements
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.parallax');
+            
+            parallaxElements.forEach(element => {
+                const speed = element.dataset.speed || 0.5;
+                const yPos = -(scrolled * speed);
+                element.style.transform = `translateY(${yPos}px)`;
+            });
+        });
+        
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.sticky-nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(42, 83, 221, 0.95)';
+                nav.style.backdropFilter = 'blur(15px)';
+            } else {
+                nav.style.background = 'rgba(42, 83, 221, 0.9)';
+                nav.style.backdropFilter = 'blur(10px)';
+            }
+        });
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all game cards and sections
+        document.querySelectorAll('.game-card, section').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
